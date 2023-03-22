@@ -1,5 +1,10 @@
 # Aura-Network-Mainnet
 
+    Cấu hình khuyến nghị:
+    8core
+    16gb ram
+    500
+
 1/ Cập nhật hệ thống:
 
     sudo apt update && apt upgrade -y
@@ -110,3 +115,8 @@ Tạo validator:
     --gas-adjustment=1.5 \
     --gas=auto \
     -y
+
+Cộng đồng chạy Node & Validator VietNam, nơi thảo luận và chia sẻ kinh nghiệm về chạy node/validator, không bàn luận chính trị.
+
+    Chanel: https://t.me/RunnodeVietNamese
+    Youtube: https://www.youtube.com/@nodevalidatorvietnam
