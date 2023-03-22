@@ -49,11 +49,11 @@ Kiểm tra phiên bản Go:
     
  Kiểm tra sha256Sum xem chính xác thông tin này: 90b9404d38167e3b40f56ddc11a1565f0107b89008742425e44905871699febc  -
  
-    jq -S -c -M '' $HOME_PATH/config/genesis.json | sha256sum
+    jq -S -c -M '' /root/.aura/config/genesis.json | sha256sum
     
  Set thông tin gas:
  
-    sed -i -e "s|^minimum-gas-prices *=.*|minimum-gas-prices = \"0.001uaura\"|" $HOME_PATH/config/app.toml
+    sed -i -e "s|^minimum-gas-prices *=.*|minimum-gas-prices = \"0.001uaura\"|" /root/.aura/config/app.toml
     
  5/ Tạo hệ thống:
 
