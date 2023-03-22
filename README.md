@@ -86,7 +86,7 @@ Khởi động hệ thống:
 
 Lệnh kiểm tra trạng thái Sync:
 
-    nibid status 2>&1 | jq .SyncInfo.catching_up
+    d status 2>&1 | jq .SyncInfo.catching_up
    
 6/ Tạo ví:
 
