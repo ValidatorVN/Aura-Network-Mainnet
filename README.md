@@ -118,7 +118,7 @@ Nếu đã có ví, dùng lệnh khôi phục;
     
 Tạo validator:
 
-    auradd tx staking create-validator \
+    aurad tx staking create-validator \
     --amount=1000000uaura \
     --pubkey=$(aurad tendermint show-validator) \
     --moniker="Node & Validator VietNam" \
@@ -135,9 +135,26 @@ Tạo validator:
     --gas=auto \
     -y
 
+Sửa tên Validator (sau 24 giờ)
+
+    aurad tx staking edit-validator \
+    --new-moniker="Moniker" \
+    --identity=6CB6AC3E672AAB9D \
+    --details="https://t.me/NodeValidatorVietNam" \
+    --chain-id=xstaxy-1 \
+    --from=wallet \
+    --gas-prices=0.1uaura \
+    --gas-adjustment=1.5 \
+    --gas=auto \
+    -y 
+
 Unjail:
 
     aurad tx slashing unjail --from wallet --chain-id xstaxy-1 --gas-prices 0.1uaura --gas-adjustment 1.5 --gas auto -y 
+
+Vote proposal: yes/no; thay number = số 1 2 3 4 ...
+
+    aurad tx gov vote <number> yes/no --from wallet --chain-id xstaxy-1 --gas-prices 0.1uaura --gas-adjustment 1.5 --gas auto -y 
 
 Cộng đồng chạy Node & Validator VietNam, nơi thảo luận và chia sẻ kinh nghiệm về chạy node/validator, không bàn luận chính trị.
 
