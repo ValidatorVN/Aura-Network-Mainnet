@@ -148,6 +148,14 @@ Sửa tên Validator (sau 24 giờ)
     --gas=auto \
     -y 
 
+Stake vào Validator của bạn: LƯU Ý 1000000uaura = 1aura => muốn stake thêm nhiều cứ thêm số 0
+
+    aurad tx staking delegate $(aurad keys show wallet --bech val -a) 1000000uaura --from wallet --chain-id xstaxy-1 --gas-prices 0.1uaura --gas-adjustment 1.5 --gas auto -y 
+    
+Stake ủng hộ cho Đức:
+
+    aurad tx staking delegate auravaloper1qfqr8vjjsvuf7qp0r7vsxjryfgmgxgauhcyteg 1000000uaura --from wallet --chain-id xstaxy-1 --gas-prices 0.1uaura --gas-adjustment 1.5 --gas auto -y 
+
 Unjail:
 
     aurad tx slashing unjail --from wallet --chain-id xstaxy-1 --gas-prices 0.1uaura --gas-adjustment 1.5 --gas auto -y 
