@@ -103,6 +103,10 @@ Khởi động hệ thống:
 Lệnh kiểm tra trạng thái Sync:
 
     aurad status 2>&1 | jq .SyncInfo.catching_up
+    
+Trang chủ Aura để kiểm tra số Block:
+
+    https://aurascan.io/dashboard
    
 6/ Tạo ví:
 
@@ -126,7 +130,6 @@ Tạo validator:
     --commission-max-change-rate=0.01 \
     --min-self-delegation=1 \
     --from=wallet \
-    --keyring-backend test \
     --gas-prices=0.1uaura \
     --gas-adjustment=1.5 \
     --gas=auto \
