@@ -136,10 +136,10 @@ Tạo validator:
     --gas=auto \
     -y
 
-Sửa tên Validator (sau 24 giờ)
+Sửa tên Validator, website, giới thiệu ... (sau 24 giờ):
 
     aurad tx staking edit-validator \
-    --new-moniker="Moniker" \
+    --new-moniker="Node & Validator VietNam" \
     --identity=6CB6AC3E672AAB9D \
     --details="https://t.me/NodeValidatorVietNam" \
     --website="https://www.youtube.com/@nodevalidatorvietnam/channels" \
