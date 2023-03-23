@@ -54,7 +54,8 @@ Kiểm tra phiên bản Go:
  Set thông tin Seed & Peer & Gas:
  
     SEEDS="22a0ca5f64187bb477be1d82166b1e9e184afe50@18.143.52.13:26656,0b8bd8c1b956b441f036e71df3a4d96e85f843b8@13.250.159.219:26656"
-PEERS=""
+    PEERS=""
+
     sed -i 's|^seeds *=.*|seeds = "'$SEEDS'"|; s|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.aura/config/config.toml
 
     sed -i 's|^pruning *=.*|pruning = "custom"|g' $HOME/.aura/config/app.toml
