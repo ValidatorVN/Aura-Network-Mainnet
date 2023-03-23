@@ -43,7 +43,7 @@ Kiểm tra phiên bản Go:
     
  Tải về khối Genesis:
  
-    curl -s https://raw.githubusercontent.com/aura-nw/mainnet-artifacts/main/xstaxy-1/pre-genesis.json >~/.aura/config/genesis.json
+    curl -s https://raw.githubusercontent.com/aura-nw/mainnet-artifacts/main/xstaxy-1/genesis.json > /root/.aura/config/genesis.json
     
  Kiểm tra sha256Sum xem chính xác thông tin này: 90b9404d38167e3b40f56ddc11a1565f0107b89008742425e44905871699febc  -
  
