@@ -124,6 +124,7 @@ Tạo validator:
     --moniker="Node & Validator VietNam" \
     --identity=6CB6AC3E672AAB9D \
     --details="https://t.me/NodeValidatorVietNam" \
+    --website="https://www.youtube.com/@nodevalidatorvietnam/channels" \
     --chain-id=xstaxy-1 \
     --commission-rate=0.10 \
     --commission-max-rate=0.20 \
@@ -141,6 +142,7 @@ Sửa tên Validator (sau 24 giờ)
     --new-moniker="Moniker" \
     --identity=6CB6AC3E672AAB9D \
     --details="https://t.me/NodeValidatorVietNam" \
+    --website="https://www.youtube.com/@nodevalidatorvietnam/channels" \
     --chain-id=xstaxy-1 \
     --from=wallet \
     --gas-prices=0.1uaura \
