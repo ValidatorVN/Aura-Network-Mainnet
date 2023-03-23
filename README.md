@@ -156,6 +156,10 @@ Vote proposal: yes/no; thay number = số 1 2 3 4 ...
 
     aurad tx gov vote <number> yes/no --from wallet --chain-id xstaxy-1 --gas-prices 0.1uaura --gas-adjustment 1.5 --gas auto -y 
 
+Xoá node:
+
+    sudo systemctl stop aurad && sudo systemctl disable aurad && sudo rm /etc/systemd/system/aurad.service && sudo systemctl daemon-reload && rm -rf $HOME/.aura && rm -rf $HOME/aura && sudo rm $(which aurad) 
+    
 Cộng đồng chạy Node & Validator VietNam, nơi thảo luận và chia sẻ kinh nghiệm về chạy node/validator, không bàn luận chính trị.
 
     Chanel: https://t.me/RunnodeVietNamese
