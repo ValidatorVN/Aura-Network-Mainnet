@@ -31,11 +31,9 @@ Kiểm tra phiên bản Go:
     
 3/ Cài đặt Node:
 
-    git clone https://github.com/aura-nw/aura.git
+    git clone --branch aura_v0.4.4 https://github.com/aura-nw/aura
 
     cd aura
-
-    git checkout Aura_v0.4.4
 
     make install
 
