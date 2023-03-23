@@ -135,6 +135,10 @@ Tạo validator:
     --gas=auto \
     -y
 
+Unjail:
+
+    aurad tx slashing unjail --from wallet --chain-id xstaxy-1 --gas-prices 0.1uaura --gas-adjustment 1.5 --gas auto -y 
+
 Cộng đồng chạy Node & Validator VietNam, nơi thảo luận và chia sẻ kinh nghiệm về chạy node/validator, không bàn luận chính trị.
 
     Chanel: https://t.me/RunnodeVietNamese
